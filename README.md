@@ -106,3 +106,9 @@ page
             echo "Ini halaman FAQ";
           }
         }
+
+4. header dan footer
+
+![01.png](public/img/01.png)
+
+![02.png](public/img/02.png)
