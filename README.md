@@ -1,3 +1,5 @@
+<p align="center"><a href="https://github.com/taufiqalif" target="_blank"><img src="https://github.com/taufiqalif/Lab8Web/blob/master/img/taufiq.png" width="400"></a></p>
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
@@ -63,6 +65,22 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - xml (enabled by default - don't turn it off)
 
 ## Praktikum 11
+
+### menjalankan server
+
+1. buka cmd atau git bash, arahkan ke
+
+`cd/xampp/htdocs/lab11_php_ci/ci4`
+
+2. kemudian jalan kan server punya nya codeigniter 4
+
+`php spark serve`
+
+3. buka chrome tulis di URL nya
+
+`localhost:8080`
+
+### ci4
 
 1.  routes
 
