@@ -115,7 +115,7 @@ page
 
 5. tampilan home
 
-untuk mengakses header dan footer kita mggunakan **include**
+untuk mengakses header dan footer kita mggunakan `include`
 
         <?= $this->include('template/header'); ?>
         <?= $this->include('template/footer'); ?>
@@ -123,3 +123,15 @@ untuk mengakses header dan footer kita mggunakan **include**
 ![03.png](public/img/03.png)
 
 ![04.png](public/img/04.png)
+
+6. tampilan about
+
+![08.png](public/img/08.png)
+
+![05.png](public/img/05.png)
+
+7. tampilan kontak
+
+![07.png](public/img/07.png)
+
+![06.png](public/img/06.png)
