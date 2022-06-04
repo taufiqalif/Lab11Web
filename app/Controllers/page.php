@@ -6,13 +6,13 @@ class page extends BaseController
 {
   public function about()
   {
-    return view('about', [
+    return view('pages/about', [
       'title' => 'About',
     ]);
   }
   public function contact()
   {
-    return view('contact', [
+    return view('pages/contact', [
       'title' => 'Contact',
     ]);
   }
