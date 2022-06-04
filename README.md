@@ -63,3 +63,10 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - xml (enabled by default - don't turn it off)
 
 ## Praktikum 11
+
+1.  routes
+
+              $routes->get('/', 'Home::index');
+              $routes->get('/about', 'Page::about');
+              $routes->get('/contact', 'Page::contact');
+              $routes->get('/faqs', 'Page::faqs');
