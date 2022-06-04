@@ -6,11 +6,15 @@ class page extends BaseController
 {
   public function about()
   {
-    echo "Ini halaman About";
+    return view('about', [
+      'title' => 'About',
+    ]);
   }
   public function contact()
   {
-    echo "Ini halaman Contact";
+    return view('contact', [
+      'title' => 'Contact',
+    ]);
   }
   public function faqs()
   {
