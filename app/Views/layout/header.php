@@ -14,7 +14,7 @@
   <div class="container">
 
     <header>
-      <h1>Layout Sederhana</h1>
+      <h1><?= $subtitle; ?></h1>
     </header>
     <nav>
       <a href="<?= base_url('/') ?>" class="active">Home</a>
