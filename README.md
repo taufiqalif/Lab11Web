@@ -75,13 +75,12 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 home
 
-class Home extends BaseController
-{
-public function index()
-{
-// return view('welcome_message');
-return view('home', [
-'title' => 'Home',
-]);
-}
-}
+        class Home extends BaseController
+        {
+          public function index()
+          {
+          return view('home', [
+            'title' => 'Home',
+            ]);
+          }
+        }
