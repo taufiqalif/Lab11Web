@@ -66,7 +66,22 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 1.  routes
 
-              $routes->get('/', 'Home::index');
-              $routes->get('/about', 'Page::about');
-              $routes->get('/contact', 'Page::contact');
-              $routes->get('/faqs', 'Page::faqs');
+        $routes->get('/', 'Home::index');
+        $routes->get('/about', 'Page::about');
+        $routes->get('/contact', 'Page::contact');
+        $routes->get('/faqs', 'Page::faqs');
+
+2.  controllers
+
+home
+
+class Home extends BaseController
+{
+public function index()
+{
+// return view('welcome_message');
+return view('home', [
+'title' => 'Home',
+]);
+}
+}
