@@ -112,3 +112,14 @@ page
 ![01.png](public/img/01.png)
 
 ![02.png](public/img/02.png)
+
+5. tampilan home
+
+untuk mengakses header dan footer kita mggunakan **include**
+
+        <?= $this->include('template/header'); ?>
+        <?= $this->include('template/footer'); ?>
+
+![03.png](public/img/03.png)
+
+![04.png](public/img/04.png)
