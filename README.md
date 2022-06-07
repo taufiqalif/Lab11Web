@@ -178,7 +178,13 @@ membuat controllers baru
 
 ![05.png](public/img/gambar/05.png)
 
-3. membuat tampilan artikel
+3. membuat header dan footer
+
+![14.png](public/img/gambar/14.png)
+
+![15.png](public/img/gambar/15.png)
+
+4. membuat tampilan artikel
 
 - pertama kita masukan data terlebih dahulu ke database
 
@@ -192,7 +198,7 @@ membuat controllers baru
 
 ![07.png](public/img/gambar/07.png)
 
-4. membuat tampilan admin
+5. membuat tampilan admin
 
 - pertama kita membuat routes untuk admin
 
@@ -207,3 +213,15 @@ membuat controllers baru
 ![11.png](public/img/gambar/11.png)
 
 ![12.png](public/img/gambar/12.png)
+
+6. menambahkan fitur tambah data
+
+- pertama kata buat controllers untuk menambahkan data
+
+![13.png](public/img/gambar/13.png)
+
+- membuat tampilan menambahkan data
+
+![16.png](public/img/gambar/16.png)
+
+![17.png](public/img/gambar/17.png)
