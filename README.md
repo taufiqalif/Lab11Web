@@ -173,3 +173,13 @@ koneksi ke database
 menambahkan routes baru
 
 ![01.png](public/img/gambar/01.png)
+
+membuat controllers baru
+
+![05.png](public/img/gambar/05.png)
+
+3. membuat tampilan artikel
+
+   - pertama kita masukan data terlebih dahulu ke database
+
+![04.png](public/img/gambar/04.png)
