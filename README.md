@@ -161,3 +161,15 @@ untuk mengakses header dan footer kita mggunakan `include`
 1. membuat database
 
 ![02.png](public/img/gambar/02.png)
+
+2. membuat table
+
+![03.png](public/img/gambar/03.png)
+
+koneksi ke database
+
+![08.png](public/img/gambar/08.png)
+
+menambahkan routes baru
+
+![01.png](public/img/gambar/01.png)
