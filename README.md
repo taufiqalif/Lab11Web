@@ -198,6 +198,18 @@ membuat controllers baru
 
 ![07.png](public/img/gambar/07.png)
 
+5. membuat fitur lihat detail
+
+- membuat controllers lihat detail
+
+![22.png](public/img/gambar/22.png)
+
+- membuat tampilan lihat detail
+
+![23.png](public/img/gambar/23.png)
+
+![24.png](public/img/gambar/24.png)
+
 5. membuat tampilan admin
 
 - pertama kita membuat routes untuk admin
@@ -225,3 +237,19 @@ membuat controllers baru
 ![16.png](public/img/gambar/16.png)
 
 ![17.png](public/img/gambar/17.png)
+
+8. menambahkan fitur edit data
+
+- pertama kata buat controllers untuk edit data
+
+![18.png](public/img/gambar/18.png)
+
+- membuat tampilan edit
+
+![19.png](public/img/gambar/19.png)
+
+![20.png](public/img/gambar/20.png)
+
+9. menghapus data
+
+![21.png](public/img/gambar/21.png)
