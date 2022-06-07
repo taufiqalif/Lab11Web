@@ -180,6 +180,10 @@ membuat controllers baru
 
 3. membuat tampilan artikel
 
-   - pertama kita masukan data terlebih dahulu ke database
+- pertama kita masukan data terlebih dahulu ke database
 
 ![04.png](public/img/gambar/04.png)
+
+- kemudian membuat folder `artikel` di dalamnya kita bikin file `index.php`
+
+![06.png](public/img/gambar/06.png)
