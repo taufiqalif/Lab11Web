@@ -187,3 +187,7 @@ membuat controllers baru
 - kemudian membuat folder `artikel` di dalamnya kita bikin file `index.php`
 
 ![06.png](public/img/gambar/06.png)
+
+- buka google ketik di URL `localhost:8080` masuk ke artikel
+
+![07.png](public/img/gambar/07.png)
