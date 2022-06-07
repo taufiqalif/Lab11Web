@@ -191,3 +191,19 @@ membuat controllers baru
 - buka google ketik di URL `localhost:8080` masuk ke artikel
 
 ![07.png](public/img/gambar/07.png)
+
+4. membuat tampilan admin
+
+- pertama kita membuat routes untuk admin
+
+![09.png](public/img/gambar/09.png)
+
+- kemudian kita buat controllers untuk admin
+
+![10.png](public/img/gambar/10.png)
+
+- membuat tampilan untuk admin di views
+
+![11.png](public/img/gambar/11.png)
+
+![12.png](public/img/gambar/12.png)
