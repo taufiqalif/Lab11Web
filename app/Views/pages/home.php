@@ -43,4 +43,6 @@
         nunc, nec pretium nunc pretium ac.</p>
     </article>
 
-    <?= $this->include('layout/footer'); ?>
+  </section>
+
+  <?= $this->include('layout/footer'); ?>

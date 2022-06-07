@@ -5,20 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="/style1.css">
   <title><?= $title; ?></title>
 </head>
 
 <body>
 
-  <div class="container">
+  <div id="container">
 
     <header>
       <h1><?= $subtitle; ?></h1>
     </header>
     <nav>
-      <a href="<?= base_url('/') ?>" class="active">Home</a>
-      <a href="<?= base_url('/artikel/index') ?>">Artikel</a>
-      <a href="<?= base_url('/about') ?>">About</a>
-      <a href="<?= base_url('/contact') ?>">Kontak</a>
+      <a href="<?= base_url('admin/artikel'); ?>" class="active">Dashboard</a>
+      <a href="<?= base_url('/'); ?>">Artikel</a>
+      <a href="<?= base_url('index.php/admin/artikel/add'); ?>">Tambah Artikel</a>
     </nav>

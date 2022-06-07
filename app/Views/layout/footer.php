@@ -1,4 +1,3 @@
-</section>
 <aside id="sidebar">
   <div class="widget-box">
     <h3 class="title">Widget Header</h3>
