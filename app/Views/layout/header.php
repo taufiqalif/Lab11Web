@@ -21,5 +21,5 @@
       <a href="<?= base_url('/artikel/index') ?>">Artikel</a>
       <a href="<?= base_url('/about') ?>">About</a>
       <a href="<?= base_url('/contact') ?>">Kontak</a>
-      <a href="<?= base_url('/user/login'); ?>">Login</a>
+      <a href="<?= base_url('/user/login'); ?>" class="login">Login</a>
     </nav>

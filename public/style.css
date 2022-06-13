@@ -39,6 +39,11 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
+
+nav .login {
+  float: right;
+}
+
 nav a.active,
 nav a:hover {
   background-color: #2b83ea;
