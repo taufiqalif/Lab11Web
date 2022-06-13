@@ -66,6 +66,8 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
 
+<hr>
+
 ## Praktikum 11
 
 ### menjalankan server
@@ -156,7 +158,7 @@ untuk mengakses header dan footer kita mggunakan `include`
 
 ![06.png](public/img/06.png)
 
-## Lanjutan Praktikum 11 ( CRUD )
+## Lanjutan lab11_ci4 ( CRUD )
 
 1. membuat database
 
@@ -253,3 +255,9 @@ membuat controllers baru
 9. menghapus data
 
 ![21.png](public/img/gambar/21.png)
+
+## melanjutkan lab11_ci4 ( sistem login )
+
+1. membuat tabel baru di database lab_ci4
+
+![01.png](public/img/login/01.png)
