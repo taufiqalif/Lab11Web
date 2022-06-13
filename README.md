@@ -261,3 +261,33 @@ membuat controllers baru
 1. membuat tabel baru di database lab_ci4
 
 ![01.png](public/img/login/01.png)
+
+2. Membuat Controller User
+
+Buat Controller baru dengan nama User.php pada direktori app/Controllers. Kemudian tambahkan method index() untuk menampilkan daftar user, dan method login() untuk proses login.
+
+![03.png](public/img/login/03.png)
+
+![04.png](public/img/login/04.png)
+
+3. Membuat View Login
+
+Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file baru dengan nama login.php.
+
+![05.png](public/img/login/05.png)
+
+4.  Membuat Database Seeder
+    Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modul login, kita perlu memasukkan data user dan password kedaalam database. Untuk itu buat database seeder untuk tabel user.
+
+          php spark make:seeder UserSeeder
+
+Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori
+`/app/Database/Seeds/UserSeeder.php` kemudian isi dengan kode berikut:
+
+![02.png](public/img/login/02.png)
+
+Selanjutnya buka kembali CLI dan ketik perintah berikut:
+
+          php spark db:seed UserSeeder
+
+![06.png](public/img/login/06.png)
