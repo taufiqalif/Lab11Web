@@ -291,3 +291,34 @@ Selanjutnya buka kembali CLI dan ketik perintah berikut:
           php spark db:seed UserSeeder
 
 ![06.png](public/img/login/06.png)
+
+5. Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php pada direktori app/Filters.
+
+![07.png](public/img/login/07.png)
+
+6.  Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut
+
+        use App\Filters\Auth::class
+
+
+        public $aliases = [
+          'csrf'          => CSRF::class,
+          'toolbar'       => DebugToolbar::class,
+          'honeypot'      => Honeypot::class,
+          'invalidchars'  => InvalidChars::class,
+          'secureheaders' => SecureHeaders::class,
+          'auth'          => Auth::class,
+        ];
+
+Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya
+
+![08.png](public/img/login/08.png)
+
+7.  Fungsi Logout
+    Tambahkan method logout pada Controller User seperti berikut:
+
+            public function logout()
+            {
+              session()->destroy();
+              return redirect()->to('/user/login');
+            }
