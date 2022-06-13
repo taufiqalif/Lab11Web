@@ -11,7 +11,7 @@ class User extends BaseController
     $title = 'Daftar User';
     $model = new UserModel();
     $users = $model->findAll();
-    return view('user/login', compact('users', 'title'));
+    return view('login/login', compact('users', 'title'));
   }
 
   public function login()
@@ -49,6 +49,6 @@ class User extends BaseController
   public function logout()
   {
     session()->destroy();
-    return redirect()->to('/user/login');
+    return redirect()->to('user/login');
   }
 }

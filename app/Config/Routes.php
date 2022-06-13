@@ -37,6 +37,7 @@ $routes->get('/artikel/index', 'Artikel::index');
 $routes->get('/artikel/(:any)', 'Artikel::view/$1');
 $routes->get('/contact', 'Page::contact');
 $routes->get('/faqs', 'Page::faqs');
+$routes->get('/user/login', 'User::login');
 
 
 
