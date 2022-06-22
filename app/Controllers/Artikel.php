@@ -10,10 +10,13 @@ class Artikel extends BaseController
   public function index()
   {
     $model = new ArtikelModel();
+    $q = $this->request->getVar('q') ?? '';
     $data = [
       'title' => 'Daftar Artikel',
       'subtitle' => 'Daftar Artikel',
-      'artikel' => $model->findAll()
+      'q' => $q,
+      'artikel' => $model->like('judul', $q)->paginate(3),
+      'pager' => $model->pager,
     ];
     return view('artikel/index', $data);
   }

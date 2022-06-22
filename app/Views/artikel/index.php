@@ -11,7 +11,8 @@
           <?= $row['judul']; ?>
         </a>
       </h2>
-      <img src="<?= base_url('/gambar/' . $row['gambar']); ?>" alt="<?= $row['judul']; ?>">
+      <img src="<?= base_url('/gambar/' . $row['gambar']); ?>" alt="<?= $row['judul']; ?>" style="width: 250px;">
+
       <p><?= substr($row['isi'], 0, 200); ?></p>
     </article>
     <hr class="divider" />
