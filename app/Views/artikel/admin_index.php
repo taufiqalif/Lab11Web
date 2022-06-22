@@ -1,6 +1,13 @@
 <?= $this->include('layout/admin_header'); ?>
 
 <table class="table">
+  <div class="box">
+    <form method="get" class="form-search">
+      <input type="text" class="search" name="q" value="<?= $q; ?>" placeholder="Cari data">
+      <!-- <input type="submit" value="cari" class="btn btn-primary"> -->
+      <button type="submit">cari</button>
+    </form>
+  </div>
   <thead>
     <tr>
       <th>ID</th>
@@ -33,14 +40,10 @@
     </tr>
     <?php endif; ?>
   </tbody>
-  <tfoot>
-    <tr>
-      <th>ID</th>
-      <th>Judul</th>
-      <th>Status</th>
-      <th>Aksi</th>
-    </tr>
-  </tfoot>
 </table>
+
+<div class="page">
+  <?= $pager->only(['q'])->links(); ?>
+</div>
 
 <?= $this->include('layout/admin_footer'); ?>
