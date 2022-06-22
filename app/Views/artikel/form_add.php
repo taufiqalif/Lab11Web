@@ -11,7 +11,7 @@
       <textarea name="isi" id="isi" cols="50" rows="10" placeholder="Isi Artikel...."></textarea>
     </p>
     <p>
-      <input type="file" name="gambar" style="width: 50px;">
+      <input type="file" name="gambar">
     </p>
     <br>
     <br>

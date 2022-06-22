@@ -13,7 +13,7 @@
       <th>ID</th>
       <th>Judul</th>
       <th>Status</th>
-      <th>AKsi</th>
+      <th>Aksi</th>
     </tr>
   </thead>
   <tbody>
@@ -43,7 +43,7 @@
 </table>
 
 <div class="page">
-  <?= $pager->only(['q'])->links(); ?>
+  <?= $pager->links(); ?>
 </div>
 
 <?= $this->include('layout/admin_footer'); ?>

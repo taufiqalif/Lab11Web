@@ -300,3 +300,37 @@ button:hover {
   background-color: #fafafa;
   color: #207cca;
 }
+
+.page nav {
+  background-color: white;
+  margin-left: 20px;
+}
+
+.pagination ul {
+  display: inline-block;
+}
+
+.page ul li {
+  list-style-type: none;
+  float: left;
+  padding: 2px;
+  margin: 5px;
+  text-decoration: none;
+  background-color: #243a73;
+  border-radius: 10%;
+}
+
+.page ul li a:hover {
+  background-color: #a5becc;
+  border-radius: 10%;
+}
+
+.page a {
+  color: black;
+}
+
+.pagination .active {
+  background-color: #a5becc;
+  color: white;
+  border-radius: 10%;
+}
