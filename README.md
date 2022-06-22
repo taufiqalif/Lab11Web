@@ -322,3 +322,46 @@ Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya
               session()->destroy();
               return redirect()->to('/user/login');
             }
+
+## membuat pagination, search, dan upload gambar
+
+1. Untuk membuat pagination, buka Kembali Controller Artikel, kemudian modifikasi kode pada method admin_index seperti berikut.
+
+![01.png](public/img/page/01.png)
+
+Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut
+dibawah deklarasi tabel data.
+
+            <?= $pager->links(); ?>
+
+2. Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat hasilnya.
+
+![02.png](public/img/page/02.png)
+
+3. Untuk membuat pencarian data, buka kembali Controller Artikel, pada method admin_index ubah kodenya seperti berikut
+
+![01.png](public/img/page/01.png)
+
+4. Kemudian buka kembali file views/artikel/admin_index.php dan tambahkan form pencarian sebelum deklarasi tabel seperti berikut:
+
+![03.png](public/img/page/03.png)
+
+Dan pada link pager ubah seperti berikut
+
+            <?= $pager->only(['q'])->links(); ?>
+
+5. Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.
+
+![02.png](public/img/page/02.png)
+
+6. Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
+
+![04.png](public/img/page/04.png)
+
+7. Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti berikut.
+
+![05.png](public/img/page/05.png)
+
+8. Ujicoba file upload dengan mengakses menu tambah artikel
+
+![06.png](public/img/page/06.png)
